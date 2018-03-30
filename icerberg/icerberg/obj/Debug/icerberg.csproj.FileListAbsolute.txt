@@ -1,0 +1,15 @@
+C:\Users\johnperry.carpio.LAZADA\Documents\iceberg-win\icerberg\icerberg\bin\Debug\icerberg.exe
+C:\Users\johnperry.carpio.LAZADA\Documents\iceberg-win\icerberg\icerberg\bin\Debug\icerberg.pdb
+C:\Users\johnperry.carpio.LAZADA\Documents\iceberg-win\icerberg\icerberg\obj\Debug\icerberg.Properties.Resources.resources
+C:\Users\johnperry.carpio.LAZADA\Documents\iceberg-win\icerberg\icerberg\obj\Debug\icerberg.csproj.GenerateResource.Cache
+C:\Users\johnperry.carpio.LAZADA\Documents\iceberg-win\icerberg\icerberg\obj\Debug\icerberg.exe.licenses
+C:\Users\johnperry.carpio.LAZADA\Documents\iceberg-win\icerberg\icerberg\obj\Debug\icerberg.exe
+C:\Users\johnperry.carpio.LAZADA\Documents\iceberg-win\icerberg\icerberg\obj\Debug\icerberg.pdb
+C:\Users\johnperry.carpio.LAZADA\Documents\iceberg-win\icerberg\icerberg\obj\Debug\icerberg.Main.resources
+C:\Users\johnperry.carpio.LAZADA\Documents\iceberg-win\icerberg\icerberg\obj\Debug\icerberg.csprojResolveAssemblyReference.cache
+C:\Users\johnperry.carpio.LAZADA\Documents\iceberg-win\icerberg\icerberg\bin\Debug\icerberg.exe.config
+C:\Users\johnperry.carpio.LAZADA\Documents\iceberg-win\icerberg\icerberg\bin\Debug\MySql.Data.dll
+C:\Users\johnperry.carpio.LAZADA\Documents\iceberg-win\icerberg\icerberg\bin\Debug\MySql.Data.xml
+C:\Users\johnperry.carpio.LAZADA\Documents\iceberg-win\icerberg\icerberg\obj\Debug\icerberg.dash_Employees.resources
+C:\Users\johnperry.carpio.LAZADA\Documents\iceberg-win\icerberg\icerberg\obj\Debug\icerberg.xUC_ServerSettings.resources
+C:\Users\johnperry.carpio.LAZADA\Documents\iceberg-win\icerberg\icerberg\obj\Debug\icerberg.xUC_EmployeeList.resources
