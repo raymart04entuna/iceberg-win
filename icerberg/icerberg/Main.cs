@@ -51,18 +51,8 @@ namespace icerberg
         private void btn_ServerConnection_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
 
-            foreach (BaseDocument bsDc in tabbedView1.Documents)
-            {
-                if (bsDc.Control.Name == "ServerSettingsPage")
-                {
-                    tabbedView1.Controller.Activate(bsDc);
-                    return;
-                }
-            }
-            var nwDc = tabbedView1.AddDocument(new xUC_ServerSettings());
-            nwDc.Control.Name = "ServerSettingsPage";
-            nwDc.Caption = "ServerSettingsPage";
-            tabbedView1.Controller.Activate(nwDc);
+            var toOpen = new xUC_ServerSettings();
+            OpenUserControl("ServerSettingsPage", toOpen);
 
 
 
@@ -101,31 +91,34 @@ namespace icerberg
 
         }
 
-        private void tabbedView1_DocumentActivated(object sender, DevExpress.XtraBars.Docking2010.Views.DocumentEventArgs e)
-        {
-            
-        }
-
-        private void tabbedView1_DocumentAdded(object sender, DevExpress.XtraBars.Docking2010.Views.DocumentEventArgs e)
-        {
-           
-        }
-
         private void btn_list_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
 
-            foreach (BaseDocument bsDc in tabbedView1.Documents)
+            var toOpen = new xUC_EmployeeList();
+            OpenUserControl("EmployeeList",toOpen);
+
+        }
+
+
+        public void OpenUserControl(String ControlKey,XtraUserControl ControlToOpen)
+        {
+            foreach (BaseDocument xuc in tabbedView1.Documents)
             {
-                if (bsDc.Control.Name == "EmployeeList")
+                if (xuc.Control.Name == ControlKey)
                 {
-                    tabbedView1.Controller.Activate(bsDc);
+                    tabbedView1.Controller.Activate(xuc);
                     return;
                 }
             }
-            var nwDc = tabbedView1.AddDocument(new xUC_EmployeeList());
-            nwDc.Control.Name = "EmployeeList";
-            nwDc.Caption = "EmployeeList";
-            tabbedView1.Controller.Activate(nwDc);
+            var nxuc = tabbedView1.AddDocument(ControlToOpen);
+            nxuc.Control.Name = ControlKey;
+            nxuc.Caption = ControlKey;
+            tabbedView1.Controller.Activate(nxuc);
         }
+
+
+
+
+
     }
 }
