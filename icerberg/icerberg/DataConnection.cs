@@ -26,6 +26,12 @@ namespace icerberg
             return ServerName;
         }
 
+        public void Connect()
+        {
+            if(ConnectoDB(Server,Database,UserId,Password)) {
+                
+            }
+        }
 
         public static Boolean ConnectoDB(String ServerName, String DatabaseName, String UserId, String Password, String Port = "")
         {

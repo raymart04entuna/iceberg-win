@@ -54,41 +54,7 @@ namespace icerberg
             var toOpen = new xUC_ServerSettings();
             OpenUserControl("ServerSettingsPage", toOpen);
 
-
-
-            //if (tabbedView1.Documents.Count() == 0)
-            //{
-            //    xUC_ServerSettings ServerSettingsPage = new xUC_ServerSettings();
-            //    ServerSettingsPage.Name = "ServerSettingsPage";
-            //    tabbedView1.AddDocument(ServerSettingsPage);
-            //    tabbedView1.ActivateDocument(ServerSettingsPage);
-            //    tabbedView1.ActiveDocument.Caption = "Server Settings ";
-            //    MessageBox.Show(tabbedView1.Documents.Count.ToString());
-            //}
-            //else
-            //{
-            //    XtraUserControl doc = tabbedView1.Documents.OfType<XtraUserControl>().First(d => d.ControlName.ToString() == "ServerSettingsPage");
-
-            //    if (doc != null)
-            //    {
-            //        tabbedView1.ActivateDocument(doc);
-            //    }
-            //    else
-            //    {
-            //        xUC_ServerSettings ServerSettingsPage = new xUC_ServerSettings();
-            //        ServerSettingsPage.Name = "ServerSettingsPage";
-            //        tabbedView1.AddDocument(ServerSettingsPage);
-            //        tabbedView1.ActivateDocument(ServerSettingsPage);
-            //        tabbedView1.ActiveDocument.Caption = "Server Settings ";
-            //        MessageBox.Show(tabbedView1.Documents.Count.ToString());
-
-            //    }
-            //}
-
-
-            //MessageBox.Show(tabbedView1.ActiveDocument.Control.Name.ToString());
-            
-
+  
         }
 
         private void btn_list_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
